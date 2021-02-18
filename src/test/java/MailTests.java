@@ -63,7 +63,7 @@ public class MailTests {
     public void mainMailTitleTestInside() throws InterruptedException {
         $(By.name("login")).setValue("testlasttest");
         $(byXpath(".//button[@data-testid='enter-password']")).click();
-        $(By.name("password")).val("fhfh3864");
+        $(By.name("password")).val("pass");
         $(byXpath(".//button[@data-testid='login-to-mail']")).click();
 
         Assert.assertEquals("Проверяем заголовок письма"
